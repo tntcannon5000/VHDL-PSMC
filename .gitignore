@@ -1,8 +1,7 @@
-# Ignore temporary or generated simulation files
-*.wdb          # Vivado waveform database files
-*.log          # Log files from simulation runs
-*.jou          # Journal files from Vivado or tools
-*.pb           # Checkpoint files
-*.tmp          # Temporary files
-*.xml          # Tool-generated metadata files
-waveforms/*.wcfg # Optional: Ignore waveform configuration if they are tool-generated
+*.wdb     
+*.log      
+*.jou  
+*.pb        
+*.tmp         
+*.xml         
+waveforms/*.wcfg 
