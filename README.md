@@ -36,11 +36,3 @@ The project includes various scripts and log files for simulation and synthesis:
 
 To use this project, open the Vivado project files and run the synthesis and implementation processes. The design can then be deployed onto an FPGA.
 
-## License
-
-This project is licensed under the terms of the MIT license.
-
-## Acknowledgements
-
-This project was developed as part of the Digital Systems Design course at [Your University Name].
-
