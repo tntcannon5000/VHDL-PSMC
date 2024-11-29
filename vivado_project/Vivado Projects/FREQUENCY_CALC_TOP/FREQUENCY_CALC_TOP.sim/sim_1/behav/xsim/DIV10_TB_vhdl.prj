@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FREQUENCY_CALC_TOP.srcs/sim_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sim_1/imports/eeee/DIV10_TB.vhd" \
+"../../../../FREQUENCY_CALC_TOP.srcs/sim_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sim_1/imports/eeee/DIV5k_TB.vhd" \
+"../../../../FREQUENCY_CALC_TOP.srcs/sim_1/imports/Vivado Projects/project_1/project_1.srcs/sources_1/imports/transfer/REGI_TB.vhd" \
+"../../../../FREQUENCY_CALC_TOP.srcs/sim_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/new/SELECT_TB.vhd" \
+"../../../../FREQUENCY_CALC_TOP.srcs/sim_1/new/FREQUENCY_CALCULATOR_TB.vhd" \
+
+# Do not sort compile order
+nosort

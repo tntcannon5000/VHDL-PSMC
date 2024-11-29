@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1668890536" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/DIV50K.dcp">
+  <File Type="PA-TCL" Name="REGI.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="REGI_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="REGI_reports.tcl"/>
+  <File Type="RDS-RDS" Name="REGI.vds"/>
+  <File Type="RDS-UTIL" Name="REGI_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="REGI_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="REGI.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="REGI_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="REGI_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/eeee/regi.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/eeee/regi.vhd"/>
+        <Attr Name="ImportTime" Val="1667605811"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SELECT.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SELECTOR/SELECTOR.srcs/sources_1/imports/FREQUENCY_CALCULATOR.srcs/sources_1/new/SELECT.vhd"/>
+        <Attr Name="ImportTime" Val="1668768244"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/eeee/DIV5k.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/eeee/DIV5k.vhd"/>
+        <Attr Name="ImportTime" Val="1667605811"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/eeee/DIV10_fin.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/eeee/DIV10_fin.vhd"/>
+        <Attr Name="ImportTime" Val="1667605811"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="REGI"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/DIV50K.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

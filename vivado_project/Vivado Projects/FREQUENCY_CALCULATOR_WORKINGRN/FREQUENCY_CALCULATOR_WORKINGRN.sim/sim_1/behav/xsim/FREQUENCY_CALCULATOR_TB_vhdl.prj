@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FREQUENCY_CALCULATOR_WORKINGRN.srcs/sources_1/imports/transfer/DIV10_fin.vhd" \
+"../../../../FREQUENCY_CALCULATOR_WORKINGRN.srcs/sources_1/imports/transfer/DIV5k.vhd" \
+"../../../../FREQUENCY_CALCULATOR_WORKINGRN.srcs/sources_1/imports/transfer/FREQUENCY_CALCULATOR.vhd" \
+"../../../../FREQUENCY_CALCULATOR_WORKINGRN.srcs/sources_1/imports/transfer/SELECT.vhd" \
+"../../../../FREQUENCY_CALCULATOR_WORKINGRN.srcs/sources_1/imports/transfer/regi.vhd" \
+"../../../../FREQUENCY_CALCULATOR_WORKINGRN.srcs/sources_1/imports/transfer/FREQUENCY_CALCULATOR_TB.vhd" \
+
+# Do not sort compile order
+nosort

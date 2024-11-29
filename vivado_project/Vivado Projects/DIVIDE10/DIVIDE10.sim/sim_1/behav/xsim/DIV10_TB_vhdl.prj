@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../DIVIDE10.srcs/sources_1/imports/eeee/DIV10_fin.vhd" \
+"../../../../DIVIDE10.srcs/sim_1/imports/eeee/DIV10_TB.vhd" \
+
+# Do not sort compile order
+nosort

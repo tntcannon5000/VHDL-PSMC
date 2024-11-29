@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Dec  9 11:43:06 2022
+# Process ID: 38824
+# Current directory: C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALCULATOR_WORKINGRN/FREQUENCY_CALCULATOR_WORKINGRN.runs/synth_1
+# Command line: vivado.exe -log FREQUENCY_CALCULATOR_TB.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FREQUENCY_CALCULATOR_TB.tcl
+# Log file: C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALCULATOR_WORKINGRN/FREQUENCY_CALCULATOR_WORKINGRN.runs/synth_1/FREQUENCY_CALCULATOR_TB.vds
+# Journal file: C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALCULATOR_WORKINGRN/FREQUENCY_CALCULATOR_WORKINGRN.runs/synth_1\vivado.jou
+# Running On: DESKTOP-QEBH7SH, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 17042 MB
+#-----------------------------------------------------------
+source FREQUENCY_CALCULATOR_TB.tcl -notrace

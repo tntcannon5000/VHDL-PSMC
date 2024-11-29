@@ -1,0 +1,230 @@
+
+*** Running vivado
+    with args -log FREQUENCY_CALCULATOR.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FREQUENCY_CALCULATOR.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source FREQUENCY_CALCULATOR.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/utils_1/imports/synth_1/FREQUENCY_CALCULATOR.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/utils_1/imports/synth_1/FREQUENCY_CALCULATOR.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top FREQUENCY_CALCULATOR -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33772
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 835.496 ; gain = 409.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'FREQUENCY_CALCULATOR' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:21]
+INFO: [Synth 8-3491] module 'DIV50K' declared at 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV5k.vhd:6' bound to instance 'U_DIV50K' of component 'DIV50K' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'DIV50K' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV5k.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'DIV50K' (0#1) [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV5k.vhd:14]
+INFO: [Synth 8-3491] module 'DIV10' declared at 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:5' bound to instance 'U_DIV10_1' of component 'DIV10' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'DIV10' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'DIV10' (0#1) [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:15]
+INFO: [Synth 8-3491] module 'DIV10' declared at 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:5' bound to instance 'U_DIV10_2' of component 'DIV10' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:107]
+INFO: [Synth 8-3491] module 'DIV10' declared at 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:5' bound to instance 'U_DIV10_3' of component 'DIV10' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:108]
+INFO: [Synth 8-3491] module 'DIV10' declared at 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:5' bound to instance 'U_DIV10_4' of component 'DIV10' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:109]
+INFO: [Synth 8-3491] module 'DIV10' declared at 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:5' bound to instance 'U_DIV10_5' of component 'DIV10' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:110]
+INFO: [Synth 8-3491] module 'DIV10' declared at 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:5' bound to instance 'U_DIV10_6' of component 'DIV10' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:111]
+INFO: [Synth 8-3491] module 'REGI' declared at 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/project_1/project_1.srcs/sources_1/imports/transfer/regi.vhd:5' bound to instance 'U_REGI' of component 'REGI' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'REGI' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/project_1/project_1.srcs/sources_1/imports/transfer/regi.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'REGI' (0#1) [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/project_1/project_1.srcs/sources_1/imports/transfer/regi.vhd:27]
+INFO: [Synth 8-3491] module 'SELECTOR' declared at 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/new/SELECT.vhd:9' bound to instance 'U_SELECTOR' of component 'SELECTOR' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'SELECTOR' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/new/SELECT.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'SELECTOR' (0#1) [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/new/SELECT.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'FREQUENCY_CALCULATOR' (0#1) [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/new/FREQUENCY_CALCULATOR.vhd:21]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 925.691 ; gain = 499.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 925.691 ; gain = 499.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 925.691 ; gain = 499.434
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'count_reg' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:22]
+WARNING: [Synth 8-327] inferring latch for variable 'OFLOW_reg' [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sources_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/imports/eeee/DIV10_fin.vhd:21]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 925.691 ; gain = 499.434
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   31 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 6     
++---Registers : 
+	                4 Bit    Registers := 6     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 10    
+	   4 Input    4 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1112.098 ; gain = 685.840
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1116.043 ; gain = 689.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1116.230 ; gain = 689.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1116.230 ; gain = 689.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1116.230 ; gain = 689.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1116.230 ; gain = 689.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1116.230 ; gain = 689.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1116.230 ; gain = 689.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1116.230 ; gain = 689.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |     8|
+|4     |LUT2   |     8|
+|5     |LUT3   |     7|
+|6     |LUT4   |    24|
+|7     |LUT5   |    32|
+|8     |LUT6   |    18|
+|9     |FDCE   |    56|
+|10    |FDRE   |     3|
+|11    |LDC    |    30|
+|12    |IBUF   |     5|
+|13    |OBUF   |    19|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------+--------+------+
+|      |Instance    |Module  |Cells |
++------+------------+--------+------+
+|1     |top         |        |   227|
+|2     |  U_DIV10_1 |DIV10   |    12|
+|3     |  U_DIV10_2 |DIV10_0 |    11|
+|4     |  U_DIV10_3 |DIV10_1 |    11|
+|5     |  U_DIV10_4 |DIV10_2 |    11|
+|6     |  U_DIV10_5 |DIV10_3 |    11|
+|7     |  U_DIV10_6 |DIV10_4 |    11|
+|8     |  U_DIV50K  |DIV50K  |    89|
+|9     |  U_REGI    |REGI    |    43|
++------+------------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1116.230 ; gain = 689.973
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1116.230 ; gain = 689.973
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1116.230 ; gain = 689.973
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1128.090 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1221.035 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 30 instances were transformed.
+  LDC => LDCE: 30 instances
+
+Synth Design complete, checksum: c06da6ee
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1221.035 ; gain = 803.023
+INFO: [Common 17-1381] The checkpoint 'C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.runs/synth_1/FREQUENCY_CALCULATOR.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file FREQUENCY_CALCULATOR_utilization_synth.rpt -pb FREQUENCY_CALCULATOR_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 25 09:28:22 2022...

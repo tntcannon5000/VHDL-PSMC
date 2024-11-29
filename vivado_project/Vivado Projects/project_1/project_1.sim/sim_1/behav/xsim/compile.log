@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/weirdchamp/Documents/Vivado Projects/project_1/project_1.srcs/sources_1/imports/transfer/regi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'REGI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/weirdchamp/Documents/Vivado Projects/project_1/project_1.srcs/sources_1/imports/transfer/REGI_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'REGI_TB'

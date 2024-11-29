@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PHASE_SHIFTER.srcs/sources_1/imports/new/CLK_DIV.vhd" \
+"../../../../PHASE_SHIFTER.srcs/sources_1/new/PHASE_SHIFTER.vhd" \
+"../../../../PHASE_SHIFTER.srcs/sources_1/imports/new/SYNC.vhd" \
+"../../../../PHASE_SHIFTER.srcs/sim_1/new/PHASE_SHIFTER_TB.vhd" \
+
+# Do not sort compile order
+nosort

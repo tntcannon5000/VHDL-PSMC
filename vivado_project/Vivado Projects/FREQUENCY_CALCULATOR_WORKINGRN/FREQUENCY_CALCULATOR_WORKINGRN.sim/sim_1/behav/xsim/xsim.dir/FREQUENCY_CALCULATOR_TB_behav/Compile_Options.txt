@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "FREQUENCY_CALCULATOR_TB_behav" "xil_defaultlib.FREQUENCY_CALCULATOR_TB" -log "elaborate.log" 

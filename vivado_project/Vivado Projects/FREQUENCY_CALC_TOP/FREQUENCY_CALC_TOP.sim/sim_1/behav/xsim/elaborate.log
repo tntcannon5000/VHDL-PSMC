@@ -1,0 +1,8 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot DIV10_TB_behav xil_defaultlib.DIV10_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-4940] 'div10' remains a black box since it has no binding entity [C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALC_TOP/FREQUENCY_CALC_TOP.srcs/sim_1/imports/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sim_1/imports/eeee/DIV10_TB.vhd:28]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

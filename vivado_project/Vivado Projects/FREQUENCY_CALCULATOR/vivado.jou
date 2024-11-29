@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Nov 15 23:32:05 2022
+# Process ID: 30220
+# Current directory: C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALCULATOR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11916 C:\Users\weirdchamp\Documents\Vivado Projects\FREQUENCY_CALCULATOR\FREQUENCY_CALCULATOR.xpr
+# Log file: C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALCULATOR/vivado.log
+# Journal file: C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALCULATOR\vivado.jou
+# Running On: DESKTOP-QEBH7SH, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 17042 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation
+source SELECTOR_TB.tcl
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source SELECTOR_TB.tcl
+run 50 us
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation
+source SELECTOR_TB.tcl
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source SELECTOR_TB.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation
+source SELECTOR_TB.tcl
+run 50 us
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source SELECTOR_TB.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_sim
+launch_simulation
+source SELECTOR_TB.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation
+source SELECTOR_TB.tcl
+run 500 ns
+close_sim
+close_project
+create_project SELECTOR {C:/Users/weirdchamp/Documents/Vivado Projects/SELECTOR} -part xc7k70tfbv676-1
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {{C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sources_1/new/SELECT.vhd} {C:/Users/weirdchamp/Documents/Vivado Projects/FREQUENCY_CALCULATOR/FREQUENCY_CALCULATOR.srcs/sim_1/new/SELECT_TB.vhd}}
+import_files -force -norecurse
+update_compile_order -fileset sources_1
+set_property used_in_simulation false [get_files  {{C:/Users/weirdchamp/Documents/Vivado Projects/SELECTOR/SELECTOR.srcs/sources_1/imports/FREQUENCY_CALCULATOR.srcs/sim_1/new/SELECT_TB.vhd}}]
+set_property used_in_synthesis false [get_files  {{C:/Users/weirdchamp/Documents/Vivado Projects/SELECTOR/SELECTOR.srcs/sources_1/imports/FREQUENCY_CALCULATOR.srcs/sim_1/new/SELECT_TB.vhd}}]
+set_property used_in_simulation true [get_files  {{C:/Users/weirdchamp/Documents/Vivado Projects/SELECTOR/SELECTOR.srcs/sources_1/imports/FREQUENCY_CALCULATOR.srcs/sim_1/new/SELECT_TB.vhd}}]
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  {{C:/Users/weirdchamp/Documents/Vivado Projects/SELECTOR/SELECTOR.srcs/sources_1/imports/FREQUENCY_CALCULATOR.srcs/sim_1/new/SELECT_TB.vhd}}]
+update_compile_order -fileset sim_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation
+source SELECTOR_TB.tcl
+run 500 ns
+close_sim
